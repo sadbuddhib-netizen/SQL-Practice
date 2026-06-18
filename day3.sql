@@ -1,0 +1,13 @@
+use sabu;
+create table book(id int,name varchar(30),price int);
+insert into book values(1,"Book A",400);
+insert into book values(2,"Book B",500);
+insert into book values(3,"Book C",600);
+select * from book;
+select * from book where "Book A" >400 and "Book B"<600;
+select * from book where "Book A" =400 or "Book B"=600;
+select * from book where not price = 400;
+select * from book where price in (400,500,600);
+select * from book where name like 'b%';
+select * from book where name like 'c%';
+select * from book where name like '%oo%';
