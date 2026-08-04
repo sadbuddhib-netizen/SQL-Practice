@@ -18,6 +18,4 @@ This repository contains my daily SQL practice and exercises as I prepare for Da
 - ✅ Day 12 – Common Table Expressions (CTE)
 - ✅ Day 13 – Window Functions (ROW_NUMBER, RANK, DENSE_RANK)
 
-## Goal
 
-Improve SQL skills through daily practice and build a strong foundation for Data Analyst roles.
